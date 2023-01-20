@@ -1,0 +1,43 @@
+.navbar-custom {
+  background-color: rgba(192, 192, 192, 0.384);
+  border: none;
+  margin-bottom: 0px;
+}
+
+.hero-section {
+  background-image: url('images/interior1.jpg');
+  background-size: cover;
+  height: 800px;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Sofia", sans-serif;
+  font-size: 50px;
+  text-shadow: 3px 3px 3px #ababab;
+  position: relative;
+  animation: mymove 5s infinite;
+  padding-top: 150px;
+}
+
+#div1 {animation-timing-function: linear;}
+
+@keyframes mymove {
+  from {left: 0px;}
+  50% {color:brown; left: 150px;}
+  to {color: silver; left: 300px;}
+}
+
+.col1 {
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+  color: brown;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  height: 100px;
+  border-radius: 50px;
+  text-align: center;
+}
